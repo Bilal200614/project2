@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body1">
+    <script src="./java.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<div class="menu-bar">
+
+  <h1 class="logo">Techniek <span>College</span></h1>
+
+  <ul>
+
+    <li><a href="#">Home</a></li>
+
+    <li><a href="#">Favoriete game <i class="fas fa-caret-down"></i></a>
+
+
+
+        <div class="dropdown-menu">
+
+            <ul>
+
+              <li><a href="Yassine.html">Yassine</a></li>
+
+              <li><a href="#">Bilal</a></li>
+
+              <li><a href="#">Kennedi</a></li>
+
+              <li>
+
+                <a href="#">Game <i class="fas fa-caret-right"></i></a>
+
+               
+
+                <div class="dropdown-menu-1">
+
+                  <ul>
+
+                    <li><a href="snake.js">Yassine</a></li>
+
+                    <li><a href="#">Bilal</a></li>
+
+                    <li><a href="#">Kennedi</a></li>
+
+                  </ul>
+
+                </div>
+
+              </li>
+
+             
+
+            </ul>
+
+          </div>
+
+    </li>
+
+    <li><a href="#">Portfolio Yassine</a></li>
+
+    <li><a href="#">Portfolio Bilal</a></li>
+
+    <li><a href="#">Portfolio Kennedi</a></li>
+
+  </ul>
+
+</div>
+
+</div>
+<h1>Galgje<br>
+    Je favoriete galgje</h1>
+  <p id="ratefeld"></p>
+  <form name="rateformular">
+  <input name="ratezeichen" type="text" size="5" maxlength="1">
+  <input name="ratebutton" type="button" value="Guess" onClick="pruefeZeichen()">
+  
+  <p id="gerateneBuchstaben">Wrong Letters:</p>
+  <img src="http://www.writteninpencil.de/Projekte/Hangman/hangman0.png" id="hangman"><br />
+  <input name="refresh" type="button" value="New Game" onClick="location.reload()">
+  </form>
+    
+</body>
+</html>
